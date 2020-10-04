@@ -7,10 +7,10 @@ It is composed of 3 tasks
 This part was an introduction to socket programming. 
 The aim was to replicate a simple FTP client to server interaction.
 The process is simple and quite similar to the first part ( the calculation server).
-1 - The client retrieve the content of the file placed in "Resources/file.txt"
-2 - It then tries to connect to the server
-3 - If the connection is successfull then it retrieve the file content and create a new file server side in which the content is appended.
-4 - It finally acknowledge the client if the transfer was a success or not.
+1. The client retrieve the content of the file placed in "Resources/file.txt"
+2. It then tries to connect to the server
+3. If the connection is successfull then it retrieve the file content and create a new file server side in which the content is appended.
+4. It finally acknowledge the client if the transfer was a success or not.
 
 -- Note: It's not a real FTP server as we don't send a file but the content of the file and recreate it in the server, whereas real ftp send the file directly.
 
